@@ -9,6 +9,7 @@ ul {
 body {
     font-size: 12px;
     width: 90%;
+    background-color: #ebebeb;
 }
 
 header {
@@ -18,7 +19,9 @@ header {
     
 }
 
-
+section.inicio {
+    text-align: center;
+}
 
 .logo {
     margin-right: 100px;
@@ -30,15 +33,14 @@ header {
 .searchbar {
     color: #666;
     text-align: center;
-    margin-right: 100px;
-    margin-left: 100px;
-    ;
-}
+   }
 
-.lupa {
-    text-align: center;
-    margin-left: 100px;
 
+
+.banner {
+background-image: url ('/img/img-home-banner.jpg') ;
+box-sizing: border-box;
+width: 100%;
 }
 
 h4 {
@@ -87,6 +89,7 @@ div.icon {
 article.product {
     border-top: solid 1px #ebebeb;
     padding: 15px;
+    background-color: white;
 }
 
 @media (min-width: 361px){
