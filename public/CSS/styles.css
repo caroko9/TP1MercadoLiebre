@@ -8,7 +8,6 @@ ul {
 
 body {
     font-size: 12px;
-    width: 90%;
     background-color: #ebebeb;
 }
 
@@ -23,18 +22,18 @@ section.inicio {
     text-align: center;
 }
 
-.logo {
-    margin-right: 100px;
-    margin-left: 100px;
-    text-align: center;
-}
+.logo 
+{
+  width: 30%;
+  margin-left: 30%;
+  padding: 15px;
+ }
 
 
 .searchbar {
     color: #666;
     text-align: center;
    }
-
 
 
 .banner {
@@ -73,8 +72,7 @@ h3.description {
 }
 
 .container1 {
-    width: 90%;
-    text-align: center;
+      text-align: center;
 }
 
 footer {
@@ -97,7 +95,8 @@ article.product {
     article.product {
                box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
     }
-}
+  }
+
 
 @media (min-width: 769px){
     /* Desktop */
