@@ -9,14 +9,14 @@ ul {
 body {
     font-size: 12px;
     background-color: #ebebeb;
+    font-family: 'Roboto';
 }
 
 header {
     background-color: #EAC926;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    
-}
+    padding: 20px;
+    }
 
 section.inicio {
     text-align: center;
@@ -24,44 +24,67 @@ section.inicio {
 
 .logo 
 {
-  width: 30%;
-  margin-left: 30%;
-  padding: 15px;
+  width: 20%;
+  text-align: center;
  }
 
 
 .searchbar {
     color: #666;
-    text-align: center;
    }
 
+ 
+ h3.copy-header{
+    font-weight: 400px;
+    text-align: center;
+ }
 
 .banner {
 background-image: url ('/img/img-home-banner.jpg') ;
 box-sizing: border-box;
 width: 100%;
+padding: 10px 0;
 }
 
 h4 {
     text-align: center;
     font-size: 24px;
 }
-h3 {text-align: center;}
+
+h3 {
+    text-align: center;
+}
+
+.main-navbar{
+    display: none;
+}
+
+.main-navbar ul {
+ margin: 0;
+ padding: 0;
+}
 
 a {
     text-decoration: none;
     color: black;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
 }
+
 
 .burguer-menu {
     color: white;
     background-color: #1259c3;
     border-style: none;
-    border-radius: 25px;
+    border-radius: 8px;
     text-align: center;
     margin-right: 100px;
     margin-left: 100px;
-}
+    font-size: 18px;
+    display: block;
+    margin: auto; 
+    }
 
 h3.precio {
     font-size: 18px;
@@ -100,8 +123,33 @@ article.product {
 
 @media (min-width: 769px){
     /* Desktop */
-    article.product {
-        box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+  .inicio { 
+     display: flex;
+     justify-content: space-between;    
 }
-}
+.copy-header {
+    max-width: 350px;
+    text-align: right;
+   }
 
+   .burguer-menu {
+    display: none;
+   }
+   .main-navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main-navbar ul {
+    display: flex;
+  }
+ a {
+    font-size: 14px;
+    margin: 0 5px 
+ }
+ 
+ .searchnav {
+    margin-top: 15px;
+ }
+ 
+    }
