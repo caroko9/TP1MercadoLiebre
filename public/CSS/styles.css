@@ -114,42 +114,43 @@ article.product {
 }
 
 @media (min-width: 361px){
-    /* Tablets */
-    article.product {
+      article.product {
                box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
     }
   }
 
 
-@media (min-width: 769px){
-    /* Desktop */
-  .inicio { 
-     display: flex;
-     justify-content: space-between;    
-}
-.copy-header {
-    max-width: 350px;
-    text-align: right;
-   }
-
-   .burguer-menu {
-    display: none;
-   }
-   .main-navbar{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.main-navbar ul {
-    display: flex;
-  }
- a {
-    font-size: 14px;
-    margin: 0 5px 
- }
- 
- .searchnav {
-    margin-top: 15px;
- }
- 
+@media (min-width: 769px) {
+    .inicio {
+        display: flex;
+        justify-content: space-between;
     }
+
+    .copy-header {
+        max-width: 350px;
+        text-align: right;
+    }
+
+    .burguer-menu {
+        display: none;
+    }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .main-navbar ul {
+        display: flex;
+    }
+
+    a {
+        font-size: 14px;
+        margin: 0 5px
+    }
+
+    .searchnav {
+        margin-top: 15px;
+    }
+}
